@@ -13,3 +13,10 @@ This Python program fetches and compares the performance of different computer c
 git clone https://github.com/yourusername/computer-performance-comparison.git
 cd computer-performance-comparison
 pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python src/main.py
+```
