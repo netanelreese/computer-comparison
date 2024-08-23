@@ -11,7 +11,7 @@ This Python program fetches and compares the performance of different computer c
 
 ```bash
 git clone https://github.com/yourusername/computer-performance-comparison.git
-cd computer-performance-comparison
+cd computer-comparison
 pip install -r requirements.txt
 ```
 
