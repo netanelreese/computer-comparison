@@ -1,3 +1,9 @@
+"""
+Fetches data from API's in config.yaml to send to compare class.
+
+Uses requests yaml and json to scrape data.
+"""
+
 import requests
 import yaml
 import json

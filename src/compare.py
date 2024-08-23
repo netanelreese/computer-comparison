@@ -1,6 +1,16 @@
+"""
+This module compares different components of different PC's or standalone parts.
+
+It takes data from fetch and compares it to eachother.
+"""
+
 import yaml
 
 def compare_performance(data):
+    """
+    Compares performance of CPU to CPU, GPU to GPU, etc.
+    """
+
     with open('config/config.yaml', 'r') as file:
         config = yaml.safe_load(file)
 
