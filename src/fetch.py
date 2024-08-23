@@ -4,9 +4,9 @@ Fetches data from API's in config.yaml to send to compare class.
 Uses requests yaml and json to scrape data.
 """
 
+import json
 import requests
 import yaml
-import json
 
 def fetch_component_data(timeout=10):
     """
