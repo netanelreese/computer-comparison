@@ -1,11 +1,17 @@
 api_endpoints:
-  cpu: "https://api.example.com/cpu"
-  gpu: "https://api.example.com/gpu"
-  ssd: "https://api.example.com/ssd"
-  ram: "https://api.example.com/ram"
+  cpu:
+    benchmark: "https://api.geekbench.com/v5/cpu"  # Replace with actual Geekbench API endpoint
+    specs: "https://pcpartpicker.com/products/cpu/fetch/"  # Replace with actual PCPartPicker API endpoint
+  gpu:
+    benchmark: "https://api.geekbench.com/v5/gpu"  # Replace with actual Geekbench API endpoint
+    specs: "https://www.techpowerup.com/gpu-specs/"  # Replace with TechPowerUp API endpoint
+  ssd:
+    specs: "https://pcpartpicker.com/products/internal-hard-drive/fetch/"  # Replace with actual PCPartPicker API endpoint
+  ram:
+    specs: "https://pcpartpicker.com/products/memory/fetch/"  # Replace with actual PCPartPicker API endpoint
+
 current_system:
   cpu: "Intel Core i7-12700KF"
   gpu: "AMD RX 7900GRE"
   ssd: "Samsung 970 EVO 1TB"
   ram: "32GB DDR5"
-  

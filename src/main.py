@@ -5,9 +5,9 @@ It fetches component data, compares the performance of the current system
 against potential new systems, and generates plots to visualize the results.
 """
 
-from src.fetch import fetch_component_data
-from src.compare import compare_performance
-from src.plot import plot_comparison
+from fetch import fetch_component_data
+from compare import compare_performance
+from plot import plot_comparison
 
 def main():
     """
