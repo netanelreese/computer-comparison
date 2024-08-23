@@ -8,7 +8,7 @@ import requests
 import yaml
 import json
 
-def fetch_component_data():
+def fetch_component_data(timeout=10):
     """
     Fetches data from API's in config.yaml to send to compare class.
     """
@@ -18,7 +18,7 @@ def fetch_component_data():
 
     data = {}
     for component, url in config['api_endpoints'].items():
-        response = requests.get(url)
+        response = requests.get(url, timeout)
         if response.status_code == 200:
             data[component] = response.json()
         else:
