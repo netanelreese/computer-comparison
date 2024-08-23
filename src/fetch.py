@@ -9,7 +9,11 @@ import yaml
 import json
 
 def fetch_component_data():
-    with open('config/config.yaml', 'r') as file:
+    """
+    Fetches data from API's in config.yaml to send to compare class.
+    """
+
+    with open('config/config.yaml', 'r', encoding='utf-8') as file:
         config = yaml.safe_load(file)
 
     data = {}
