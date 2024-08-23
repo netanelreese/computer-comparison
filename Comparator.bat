@@ -5,7 +5,7 @@ REM Activate a virtual environment if needed
 REM call path\to\your\venv\Scripts\activate
 
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install -q -r requirements.txt
 python src\main.py
 
 REM Deactivate the virtual environment if it was activated

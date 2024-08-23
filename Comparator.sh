@@ -4,7 +4,7 @@
 # Activate a virtual environment if needed
 # source path/to/your/venv/bin/activate
 source venv/Scripts/activate
-pip install -r requirements.txt
+pip install -q -r requirements.txt
 python src/main.py
 
 # Deactivate the virtual environment if it was activated
