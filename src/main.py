@@ -14,7 +14,7 @@ def main():
     Main function that orchestrates the fetching of component data,
     performance comparison, and plotting of results.
     """
-        
+           
     data = fetch_component_data()
     comparison_results = compare_performance(data)
     plot_comparison(comparison_results)

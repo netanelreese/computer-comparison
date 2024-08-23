@@ -24,7 +24,7 @@ def fetch_component_data():
         else:
             print(f"Failed to fetch data for {component}.")
 
-    with open('data/components_data.json', 'w') as json_file:
+    with open('config/config.yaml', 'r', encoding='utf-8') as json_file:
         json.dump(data, json_file)
 
     return data
