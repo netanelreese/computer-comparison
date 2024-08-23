@@ -1,2 +1,2 @@
 pycache/ *.pyc *.log data/components_data.json
-
+venv/
