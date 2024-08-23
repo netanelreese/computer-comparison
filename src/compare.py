@@ -11,7 +11,7 @@ def compare_performance(data):
     Compares performance of CPU to CPU, GPU to GPU, etc.
     """
 
-    with open('config/config.yaml', 'r') as file:
+    with open('config/config.yaml', 'r', encoding='utf-8') as file:
         config = yaml.safe_load(file)
 
     current_system = config['current_system']
