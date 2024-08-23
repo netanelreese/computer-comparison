@@ -3,10 +3,9 @@
 
 # Activate a virtual environment if needed
 # source path/to/your/venv/bin/activate
-
 source venv/Scripts/activate
 pip install -r requirements.txt
-python3 src/main.py
+python src/main.py
 
 # Deactivate the virtual environment if it was activated
 # deactivate
